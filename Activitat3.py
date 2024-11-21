@@ -54,14 +54,20 @@ print('Els nombres parells són: '  f"{sum(parells)}" )
 print('Els nombres imparells són: ' f"{sum(imparells)}")
 
 # Sumar números fins a arribar a 100 amb while. Caldrà sumar els números que estan inclosos entre 0 i 100. El programa deixarà d’executar-se quan s’arribi al número 100.
+#Ha de passar el 100? o no arribar?
 nums = 1
 sumn = 0
 
-while nums < 101:
+while nums <= 100: #no arriba al 100; (sumn < 100) - es pasa del 100, 105.
     sumn += nums
     nums += 1
-
+    
 print(sumn)
 
-
 # Amb while indicar si el número guardat a una variable està entre 100 i 400.
+
+numero = 100
+while numero <= 400 and numero >= 100:
+    print("El número ", f"{numero}", " és troba etre 100 i 400")
+    break
+
