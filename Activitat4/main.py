@@ -9,5 +9,5 @@ colibri_d_anna = Colibri("Colibrí d'Anna", "10cm", "marró", "costa oest d'Amè
 colibri_d_allen = Colibri("Colibrí d'Allen", "8cm", "verd", "centre Colúmbia", "preocupació mínima" )
 colibri_cal·liope = Colibri("Colibrí cal·liope", "7cm", "verd", "costa sud-oest d'Oregon i Califòrnia", "preocupació mínima")
 
-print(f'El cotxe més económic de la marca {ibiza.getMarca} és {ibiza.getModel()} de color {ibiza.getColor()}')
-print(f"El colibrí més conegut a {colibri_d_anna.getLocalitat()} és {colibri_d_anna.getNom}, el seu color principal és el {colibri_d_anna.getColor()}, ens podem trobar-ne d'un a {colibri_d_anna.getLocalitat()}.")
+print(f'El cotxe més económic de la marca {ibiza.getMarca()} és {ibiza.getModel()} de color {ibiza.getColor()}')
+print(f"El colibrí més conegut a {colibri_d_anna.getLocalitat()} és {colibri_d_anna.getNom()}, el seu color principal és el {colibri_d_anna.getColor()}, ens podem trobar-ne d'un a {colibri_d_anna.getLocalitat()}.")

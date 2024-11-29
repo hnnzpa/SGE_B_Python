@@ -1,30 +1,30 @@
 class Colibri:
-    def __init__ (self, tamany_cos, color_cap, color_cola, tamany_pico, estat_conservacio,):
+    def __init__ (self, nom, tamany_cos, color, localitat, estat_conservacio,):
+        self.noms = nom
         self.tamany_cos = tamany_cos 
-        self.tamany_wings = color_cap
-        self.tamany_cola = color_cola
-        self.tamany_pico = tamany_pico
+        self.color = color
+        self.localitat = localitat
         self.estat_conservacio = estat_conservacio
+
+def getNom(self):
+    return self.nom
+def setNom(self, new_nom):
+    self.tamany_cos = new_nom
 
 def getTamany_cos(self):
     return self.tamany_cos
 def setTamany_cos(self, new_tamany_cos):
     self.tamany_cos = new_tamany_cos
 
-def getTamany_wings(self):
-    return self.tamany_wings
-def setTamany_wings(self, new_color_cap):
-    self.tamany_wings = new_color_cap
+def getColor(self):
+    return self.color
+def setColor(self, new_color):
+    self.tamany_cola = new_color
 
-def getTamany_cola(self):
-    return self.tamany_cola
-def setTamany_cola(self, new_color_cola):
-    self.tamany_cola = new_color_cola
-
-def getTamany_pico(self):
-    return self.tamany_pico
-def setTamany_pico(self, new_tamany_pico):
-    self.tamany_pico = new_tamany_pico
+def getLocalitat(self):
+    return self.localitat
+def setTamany_pico(self, new_localitat):
+    self.tamany_pico = new_localitat
 
 def getEstat_conservacio(self):
     return self.estat_conservacio
